@@ -1,6 +1,8 @@
+package lista1;
+
 import java.util.Scanner;
 
-class Main {
+class Exercicio2 {
   public static void main(String[] args) {
     Scanner valores = new Scanner(System.in);
     double um, dois, tres, quatro, qrdum, qrddois, qrdtres, qrdquatro, resultado;
