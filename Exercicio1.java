@@ -3,7 +3,7 @@ package lista1;
 import java.util.Scanner;
 import java.text.DecimalFormat;
 
-class Exercicio1 {
+public class Exercicio1 {
   private static final DecimalFormat df = new DecimalFormat("0.00");
   public static void main (String [] args) {
     Scanner valores = new Scanner(System.in);
