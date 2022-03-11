@@ -7,13 +7,13 @@ class Exercicio2 {
     Scanner valores = new Scanner(System.in);
     double um, dois, tres, quatro, qrdum, qrddois, qrdtres, qrdquatro, resultado;
     System.out.println("Digite o primeiro valor: ");
-    um = valores.nextDouble();
+    um = Double.parseDouble(valores.nextLine());
     System.out.println("Digite o segundo valor: ");
-    dois = valores.nextDouble();
+    dois = Double.parseDouble(valores.nextLine());
     System.out.println("Digite o terceiro valor: ");
-    tres = valores.nextDouble();
+    tres = Double.parseDouble(valores.nextLine());
     System.out.println("Digite o quarto valor: ");
-    quatro = valores.nextDouble();
+    quatro = Double.parseDouble(valores.nextLine());
     qrdum = um * um;
     qrddois = dois * dois;
     qrdtres = tres * tres;
