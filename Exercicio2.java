@@ -3,7 +3,7 @@ import java.util.Scanner;
 class Main {
   public static void main(String[] args) {
     Scanner valores = new Scanner(System.in);
-    double um, dois, tres, quatro, qrdum, qrddois, qrdtres, qrdquatro ,resultado;
+    double um, dois, tres, quatro, qrdum, qrddois, qrdtres, qrdquatro, resultado;
     System.out.println("Digite o primeiro valor: ");
     um = valores.nextDouble();
     System.out.println("Digite o segundo valor: ");
