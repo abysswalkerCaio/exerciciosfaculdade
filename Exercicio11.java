@@ -22,6 +22,6 @@ public class Exercicio11 {
 		comissaovendas = valorvendas * 0.05;
 		salariofinal = salario + comissaovendas + comissaocarrovendido;
 		valores.close();
-		System.out.println("Salário final do funcionário: R$ " + df.format(comissaovendas));
+		System.out.println("Salário final do funcionário: R$ " + df.format(salariofinal));
 	}
 }
