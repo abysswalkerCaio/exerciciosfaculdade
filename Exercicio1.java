@@ -1,15 +1,19 @@
-import java.util.Scanner;
+package lista1;
 
-class Main {
+import java.util.Scanner;
+import java.text.DecimalFormat;
+
+class Exercicio1 {
+  private static final DecimalFormat df = new DecimalFormat("0.00");
   public static void main (String [] args) {
     Scanner valores = new Scanner(System.in);
       double cotacao, valordolar, resultadoreal;
       System.out.println("Insira a cotação do dólar: ");
-      cotacao = valores.nextDouble();
+      cotacao = Double.parseDouble(valores.nextLine());
       System.out.println("Insira o valor em dólar: ");
-      valordolar = valores.nextDouble();
+      valordolar = Double.parseDouble(valores.nextLine());
       resultadoreal = cotacao * valordolar;
       valores.close();
-      System.out.println("O valor em real: " + resultadoreal);
+      System.out.println("O valor em real: " + df.format(resultadoreal);
     }
 }
