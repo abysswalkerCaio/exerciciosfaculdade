@@ -1,8 +1,11 @@
 package lista1;
 
 import java.util.Scanner;
+import java.text.DecimalFormat;
 
 public class Exercicio9 {
+	private static final DecimalFormat df = new DecimalFormat("0.00");
+
 	public static void main(String[] args) {
 		Scanner valores = new Scanner(System.in);
 		double salario, reajuste, valor, valorreajuste;
@@ -13,6 +16,6 @@ public class Exercicio9 {
 		valor = salario * (reajuste / 100);
 		valorreajuste = valor + salario;
 		valores.close();
-		System.out.println("Valor reajustado: " + valorreajuste);
+		System.out.println("Valor reajustado: R$ " + df.format(valorreajuste));
 	}
 }
