@@ -4,9 +4,8 @@ import java.util.Scanner;
 import java.text.DecimalFormat;
 
 public class Exercicio1 {
-	private static final DecimalFormat df = new DecimalFormat("0.00");
-
 	public static void main(String[] args) {
+		DecimalFormat df = new DecimalFormat("0.00");
 		Scanner valores = new Scanner(System.in);
 		double cotacao, valordolar, resultadoreal;
 		System.out.println("Insira a cotação do dólar: ");
